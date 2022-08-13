@@ -257,11 +257,16 @@ section {
 --------------------------------------------------------------*/
 .header {
   z-index: 997;
-  position: absolute;
   padding: 30px 0;
   top: 0;
   left: 0;
   right: 0;
+}
+
+#header.header-scrolled,
+#header.header-inner-pages {
+  background: rgba(21, 34, 43, 0.85);
+  padding: 10px 0;
 }
 
 .header .logo img {
@@ -379,6 +384,7 @@ section {
     padding: 10px 20px;
     font-size: 15px;
     text-transform: none;
+    color: #15222b;
     color: var(--color-default);
     font-weight: 400;
   }
@@ -420,6 +426,7 @@ section {
 
   .navbar .dropdown .dropdown:hover>ul {
     left: -100%;
+    visibility: visible;
   }
 }
 
@@ -1651,12 +1658,12 @@ section {
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
-.contact .info-item {
+.contact .info-box {
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
   padding: 20px 0 30px 0;
 }
 
-.contact .info-item i {
+.contact .info-box i {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1669,14 +1676,14 @@ section {
   border: 2px dotted #da0303;
 }
 
-.contact .info-item h3 {
+.contact .info-box h3 {
   font-size: 20px;
   color: #6c757d;
   font-weight: 700;
   margin: 10px 0;
 }
 
-.contact .info-item p {
+.contact .info-box p {
   padding: 0;
   line-height: 24px;
   font-size: 14px;
