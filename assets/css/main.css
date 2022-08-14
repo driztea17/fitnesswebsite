@@ -61,7 +61,8 @@ h6 {
 --------------------------------------------------------------*/
 .trial{
   height: 70px;
-  background-color: rgb(0, 0, 0);}
+  background-color: rgb(0, 0, 0, 0.8);
+}
 
 section {
   padding: 80px 0;
@@ -329,7 +330,8 @@ h1{
     font-family: var(--font-primary);
     font-size: 14px;
     font-weight: 500;
-    color: rgb(248, 91, 91);
+    color: #fff;
+    /* color: rgb(248, 91, 91); */
     text-transform: uppercase;
     white-space: nowrap;
     transition: 0.3s;
