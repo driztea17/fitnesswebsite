@@ -1874,3 +1874,5 @@ url("./fonts/bootstrap-icons.woff?8d200481aa7f02a2d63a331fc782cfaf") format("wof
 .bi-fuel-pump-diesel::before { content: "\f83c"; }
 .bi-fuel-pump-fill::before { content: "\f83d"; }
 .bi-fuel-pump::before { content: "\f83e"; }
+.bx-map:before {
+  content: "\eb56";}
