@@ -1134,6 +1134,7 @@ h1{
 /*--------------------------------------------------------------
 # Alt Services Section
 --------------------------------------------------------------*/
+
 .alt-services .img-bg {
   background-size: cover;
   background-position: center center;
@@ -1922,18 +1923,18 @@ h1{
 
 .hero .info h2 {
   color: #fff;
-  margin-bottom: 30px;
+  margin-bottom: -7px;
   padding-bottom: 30px;
   font-size: 56px;
   font-weight: 700;
   position: relative;
 }
 
-.hero .info h2:after {
+.hero .info p:after {
   content: "";
   position: absolute;
   display: block;
-  width: 80px;
+  width: 150px;
   height: 4px;
   background: var(--color-primary);
   left: 0;
@@ -1950,7 +1951,7 @@ h1{
 
 .hero .info p {
   color: rgba(255, 255, 255, 0.8);
-  font-size: 18px;
+  font-size: 47px;
 }
 
 .hero .info .btn-get-started {
