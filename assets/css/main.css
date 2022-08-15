@@ -1135,13 +1135,13 @@ h1{
 # Alt Services Section
 --------------------------------------------------------------*/
 
-.alt-services .img-bg {
+.about .img-bg {
   background-size: cover;
   background-position: center center;
   min-height: 400px;
 }
 
-.alt-services h3 {
+.about h3 {
   font-size: 28px;
   font-weight: 700;
   color: var(--color-secondary);
@@ -1150,7 +1150,7 @@ h1{
   position: relative;
 }
 
-.alt-services h3:after {
+.about h3:after {
   content: "";
   position: absolute;
   display: block;
@@ -1161,11 +1161,11 @@ h1{
   bottom: 0;
 }
 
-.alt-services .icon-box {
+.about .icon-box {
   margin-top: 50px;
 }
 
-.alt-services .icon-box i {
+.about .icon-box i {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1181,27 +1181,27 @@ h1{
   transition: 0.3s;
 }
 
-.alt-services .icon-box:hover i {
+.about .icon-box:hover i {
   background-color: var(--color-primary);
   color: #fff;
 }
 
-.alt-services .icon-box h4 {
+.about .icon-box h4 {
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 18px;
 }
 
-.alt-services .icon-box h4 a {
+.about .icon-box h4 a {
   color: #000;
   transition: 0.3s;
 }
 
-.alt-services .icon-box h4 a:hover {
+.about .icon-box h4 a:hover {
   color: var(--color-primary);
 }
 
-.alt-services .icon-box p {
+.about .icon-box p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
@@ -1934,13 +1934,15 @@ h1{
   content: "";
   position: absolute;
   display: block;
-  width: 150px;
-  height: 4px;
+  width: 100px;
+  height: 3px;
   background: var(--color-primary);
-  left: 0;
+  margin-top: 200px;
+  top: -150px;
+  left: 220px;
   right: 0;
   bottom: 0;
-  margin: auto;
+  /* margin: auto; */
 }
 
 @media (max-width: 768px) {
@@ -1951,7 +1953,7 @@ h1{
 
 .hero .info p {
   color: rgba(255, 255, 255, 0.8);
-  font-size: 47px;
+  font-size: 30px;
 }
 
 .hero .info .btn-get-started {
