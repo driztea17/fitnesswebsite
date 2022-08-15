@@ -1930,7 +1930,7 @@ h1{
   position: relative;
 }
 
-.hero .info p:after {
+/* .hero .info p:after {
   content: "";
   position: absolute;
   display: block;
@@ -1943,7 +1943,7 @@ h1{
   right: 0;
   bottom: 0;
   /* margin: auto; */
-}
+/* } */
 
 @media (max-width: 768px) {
   .hero .info h2 {
