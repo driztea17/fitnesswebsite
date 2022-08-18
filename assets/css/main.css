@@ -1695,6 +1695,9 @@ h1{
   color: #6c757d;
   font-weight: 700;
   margin: 10px 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .contact .info-box p {
@@ -1702,6 +1705,9 @@ h1{
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .contact .php-email-form {
